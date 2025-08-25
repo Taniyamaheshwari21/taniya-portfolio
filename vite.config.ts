@@ -8,8 +8,7 @@ export default defineConfig(({ mode }) => ({
     port: 8081,
   },
   plugins: [
-    react()],
-  base: "/taniya-portfolio/",  
+    react()], 
   resolve: {
     alias: {
       "@": path.resolve(__dirname, "./src"),
