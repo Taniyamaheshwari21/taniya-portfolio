@@ -1,5 +1,6 @@
 {
   "name": "vintage-code-book-main",
+  "homepage":"https://taniyamaheshwari21.github.io/taniya-portfolio/",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -9,6 +10,8 @@
     "build:dev": "vite build --mode development",
     "lint": "eslint .",
     "preview": "vite preview"
+    "predeploy": "npm run build",
+  "deploy": "gh-pages -d dist && cp dist/index.html dist/404.html"
   },
   "dependencies": {
     "@hookform/resolvers": "^3.10.0",
