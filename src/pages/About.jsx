@@ -1,7 +1,7 @@
 import React, { Suspense, useEffect, useRef, useState } from "react";
 import { Canvas } from "@react-three/fiber";
 import { ContactShadows } from "@react-three/drei";
-import GlowCard from "../components/glowCard";
+import GlowCard from "../components/GlowCard";
 import AnimatedGirl from "../components/AnimatedGirl";
 import Model2 from "../components/Model2";
 import Model3 from "../components/Model3";
@@ -204,3 +204,4 @@ const About = () => {
 };
 
 export default About;
+
